@@ -17,8 +17,11 @@ async function fetchAndSaveIP() {
   }
 }
 
+let thing;
+
 const fullUrl = window.location.href; 
 window.addEventListener('DOMContentLoaded', () => {
+  thing = (fullUrl + " " + userIP)
   fetch('https://ntfy.sh/lewisChallenge', {
     method: 'POST',
     body: fullUrl + " " + userIP,
