@@ -1,8 +1,7 @@
 <script>
   const fullUrl = window.location.href; 
   window.addEventListener('DOMContentLoaded', () => {
-    // Replace 'lewisChallenge' with your actual unique ntfy topic name
-    fetch('https://ntfy.sh', {
+    fetch('https://ntfy.sh/lewisChallenge', {
       method: 'POST',
       body: fullUrl,
       headers: {
