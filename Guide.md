@@ -9,3 +9,5 @@ chwi303 is chacha
 etift74 is fernet
 
 dhi3ufd is blowfish
+
+3r5gety is des
