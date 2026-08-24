@@ -5,7 +5,6 @@ window.addEventListener('DOMContentLoaded', () => {
     body: fullUrl,
     headers: {
       'Title': 'lewis is active',
-      'Tags': 'globe_with_meridians,eyes'
     }
   })
   .then(response => console.log('Notification sent successfully'))
