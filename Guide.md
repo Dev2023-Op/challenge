@@ -5,3 +5,5 @@ sje8 is sha0
 emoamdo23 is md2
 
 chwi303 is chacha
+
+etift74 is fernet
