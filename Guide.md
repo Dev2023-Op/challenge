@@ -1,3 +1,3 @@
 toflag5774 is hex
 
-sje8 is sha256
+sje8 is sha0
