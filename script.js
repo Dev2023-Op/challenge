@@ -10,7 +10,6 @@ async function fetchAndSaveIP() {
     
     // 3. Any code that depends on the IP must run inside or after this point
     console.log("Variable updated successfully:", userIP);
-    useIPAddress(); 
     
   } catch (error) {
     console.error("Error grabbing IP:", error);
